@@ -5,6 +5,7 @@ curl -s https://fibos.io/download/installer.sh |sh
 
 #fibos --init
 npm install fibos.js
+rm createAccount.js
 cat <<EOT >> createAccount.js
 var FIBOS = require("fibos.js");
 var fs = require('fs');
