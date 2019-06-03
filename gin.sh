@@ -21,8 +21,8 @@ ufw --force enable
 systemctl enable fail2ban && \
 systemctl start fail2ban
 
-wget https://github.com/gincoin-dev/gincoin-core/releases/download/1.1.0.0/gincoin-binaries-linux-64bit.tar.gz
-tar -zxvf gincoin-binaries-linux-64bit.tar.gz
+wget https://github.com/GIN-coin/gincoin-core/releases/download/v1.2.1.0/gincoin-binaries-1.2.1-linux-64bit.tar.gz
+tar -zxvf gincoin-binaries-1.2.1-linux-64bit.tar.gz
 mkdir -p .gincoincore
 cat <<EOT >> .gincoincore/gincoin.conf
 rpcuser=gincoin
